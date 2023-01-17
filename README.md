@@ -53,10 +53,11 @@ To complete the above task, the following inputs are provided...
 - Test and validate against any single browser only - Chrome?
 - The deliverables must include documentation and all artifacts necessary to deploy and run the application. Docker containers may be most convenient - one each for frontend and API service.
 - To enable review, deliverables must include code - not just executables. And per good programming practices, be sufficiently documented for ease of understanding.
+- Junior candidates may choose to do limited portions of the assignment, those portions they feel comfortable with. Complete as much as you can in available time. 
 ## Optional Challenge (Complete as many as you like for extra credit.)
 - One of the file types is .STL. It is a common CAD format used to represent the surface geometry of a 3D object. Add support in the 'viewer' to display the 3D object.
 - Add features, including buttons or mouse-based input to manipulate the displayed 3D object. Allow translation, rotation, zoom-in/out.
-- Add support for viewing .PLY files, another CAD format.
+- Add support for viewing .PLY files, another CAD format. 
 ## Submission
 In order to submit the assignment, do the following:
 
