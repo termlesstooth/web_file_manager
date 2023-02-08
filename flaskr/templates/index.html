@@ -1,0 +1,54 @@
+<table>
+    <thead>
+      <tr>
+        <th>Customer ID</th>
+        <th>Name</th>
+        <th>Contract ID</th>
+        <th>Customer Part ID</th>
+        <th>Parent CAD File ID</th>
+        <th>CAD File ID</th>
+        <th>File Name</th>
+        <th>Container</th>
+        <th>Slice File ID</th>
+        <th>Slice File Name</th>
+        <th>Slice File Container</th>
+        <th>Build File Name</th>
+        <th>Build File Container</th>
+        <th>Job ID</th>
+        <th>Test Run ID</th>
+        <th>Scan ID</th>
+        <th>RSI File Name</th>
+        <th>Scan File Name</th>
+        <th>Mesh File Name</th>
+        <th>Point Cloud File Name</th>
+        <th>Z-Metric File Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for entry in entries %}
+        <tr>
+          <td>{{ entry.customer_id }}</td>
+          <td>{{ entry.name }}</td>
+          <td>{{ entry.contract_id }}</td>
+          <td>{{ entry.customer_part_id }}</td>
+          <td>{{ entry.parent_CAD_file_ID }}</td>
+          <td>{{ entry.CAD_file_ID }}</td>
+          <td>{{ entry.file_name }}</td>
+          <td>{{ entry.container }}</td>
+          <td>{{ entry.slice_file_ID }}</td>
+          <td>{{ entry.slice_file_name }}</td>
+          <td>{{ entry.slice_file_container }}</td>
+          <td>{{ entry.build_file_name }}</td>
+          <td>{{ entry.build_file_container }}</td>
+          <td>{{ entry.job_ID }}</td>
+          <td>{{ entry.test_run_ID }}</td>
+          <td>{{ entry.scan_ID }}</td>
+          <td>{{ entry.rsi_file_name }}</td>
+          <td>{{ entry.scan_file_name }}</td>
+          <td>{{ entry.mesh_file_name }}</td>
+          <td>{{ entry.ptcloud_file_name }}</td>
+          <td>{{ entry.zmetric_file_name }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>

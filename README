@@ -1,0 +1,15 @@
+INSTRUCTIONS TO RUN ON WINDOWS
+
+If you are running for the first time remember to install
+requirements .txt in a venv
+
+Also remember to run the query in query.sql file first in MySQL workbench. This creates a view that the API references. I did this because I did not have feedback from a higher up or front end developer so I did not know what columns would be important for the final query. In a professional setting I would narrow down the columns of the master query based on what columns are absoloutly necessary
+
+1) Navigate to project directory in Command Prompt
+2) Activate the virtual environment by running 
+    $ venv\Scripts\activate
+3) Run the following commands
+    $ set FLASK_APP=flaskr
+    $ set FLASK_ENV=development
+4) Start the server by running
+    $ flask run
